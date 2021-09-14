@@ -1,0 +1,43 @@
+FULL STACK DEVELOPER
+
+
+PROJECT MANAGER
+DESIGNER
+FRONT END
+BACK END
+DB ADMINISTRATOR (maintain backups, design databases, DB dev ops (migrations), )
+DEV OPS
+QA
+
+
+
+
+Uber
+----------
+vehicles    (id [SERIAL], )
+drivers     (id [SERIAL], )
+clients     (id [SERIAL], )
+
+
+
+SERIAL <----> INTEGER sequence NOT NULL
+
+
+AirBnB
+----------
+properties   (id [SERIAL], address, owner_id[INTEGER], ...)
+1, 1 main street, 3
+
+SELECT owner.id FROM ... 
+SELECT properties.id FROM ... 
+SELECT guests.id FROM ... 
+
+owners       (id [SERIAL], mailing_address, ...)
+1, 28 washington avenue, ...
+2, 1360 Galiano Way, ...
+3, 28 washington avenue, ...
+4, etc lane, ...
+
+
+guests       (id [SERIAL], email, ...)
+

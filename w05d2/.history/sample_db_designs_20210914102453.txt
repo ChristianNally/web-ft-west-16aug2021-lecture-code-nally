@@ -1,0 +1,57 @@
+FULL STACK DEVELOPER
+
+
+PROJECT MANAGER
+DESIGNER
+FRONT END
+BACK END
+DB ADMINISTRATOR (maintain backups, design databases, DB dev ops (migrations), )
+DEV OPS
+QA
+
+
+1) What are the entities that I need to store to support the business logic of my application?
+
+2) Which entity's table should be the 'owner' of any given piece of information that I want to store?
+
+3) For any given piece of information (a column in a table), what 'type' should it be? 
+
+4) Are there any special restrictions that I should place on any given column? (NOT NULL, etc.)
+
+
+Migration:
+
+ALTER TABLE owners RENAME mail_address to mailing_address; // syntax may be wrong
+ALTER TABLE owners DELETE mailing_address; // syntax may be wrong
+....
+64
+
+Uber
+----------
+vehicles    (id [SERIAL], )
+drivers     (id [SERIAL], )
+clients     (id [SERIAL], )
+
+
+
+SERIAL <----> INTEGER sequence NOT NULL
+
+
+AirBnB
+----------
+properties   (id [SERIAL], address, owner_id[INTEGER], guest_count[SMALLINT], )
+1, 1 main street, 3
+
+SELECT owner.id FROM ... 
+SELECT properties.id FROM ... 
+SELECT guests.id FROM ... 
+
+owners       (id [SERIAL], mailing_address, ...)
+1, 28 washington avenue, ...
+2, 1360 Galiano Way, ...
+3, 28 washington avenue, ...
+4, etc lane, ...
+
+
+guests       (id [SERIAL], email, ...)
+

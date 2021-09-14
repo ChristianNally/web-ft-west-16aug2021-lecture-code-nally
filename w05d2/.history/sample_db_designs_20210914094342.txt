@@ -1,0 +1,27 @@
+
+
+Uber
+----------
+vehicles    (id, )
+drivers     (id, )
+clients     (id, )
+
+
+
+
+
+AirBnB
+----------
+properties   (id, address, owner_id, ...)
+1, 1 main street, 3
+
+
+owners       (id, mailing_address, ...)
+1, 28 washington avenue, ...
+2, 1360 Galiano Way, ...
+3, 28 washington avenue, ...
+4, etc lane, ...
+
+
+guests       (id, email, ...)
+

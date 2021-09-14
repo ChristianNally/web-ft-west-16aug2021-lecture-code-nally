@@ -1,0 +1,18 @@
+
+
+Uber
+----------
+vehicles    (id, )
+drivers     (id, )
+clients     (id, )
+
+
+
+
+
+AirBnB
+----------
+property        (id, )
+owner/operator  (id, )
+guest           (id, )
+
