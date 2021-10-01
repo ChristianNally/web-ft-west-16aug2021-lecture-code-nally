@@ -27,4 +27,4 @@ module.exports = {
   returnPromise,
   returnRejectedPromise,
   returnRandomPromise
-};
+}

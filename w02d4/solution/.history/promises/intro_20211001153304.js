@@ -20,7 +20,6 @@ promise
   .then((data) => {
     console.log('first');
     console.log('second');
-    const newData = 'another thing';
     console.log("newData:",newData);
     console.log('data:', data);
   });

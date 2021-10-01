@@ -22,10 +22,6 @@ rlp.questionAsync('What do you think of Node.js? ')
   })
   .then((answer) => {
     answers.push(answer);
-    return rlp.questionAsync('Are you on team semi-colon? ');
-  })
-  .then((answer) => {
-    answers.push(answer);
     return rlp.questionAsync('Which meal is your favourite? ');
   })
   .then((answer) => {
@@ -34,8 +30,8 @@ rlp.questionAsync('What do you think of Node.js? ')
   })
   .then((answer) => {
     answers.push(answer);
-    return rlp.questionAsync('Which sport is your absolute favourite? ');
-//    throw "error!";
+//    return rlp.questionAsync('Which sport is your absolute favourite? ');
+    throw "error!";
   })
   .then((answer) => {
     answers.push(answer);

@@ -19,8 +19,9 @@ console.log('second');
 promise
   .then((data) => {
     console.log('first');
-    console.log('second');
-    const newData = 'another thing';
-    console.log("newData:",newData);
     console.log('data:', data);
+  })
+  .then((newData) => {
+    console.log('second');
+    console.log("newData:",newData);
   });

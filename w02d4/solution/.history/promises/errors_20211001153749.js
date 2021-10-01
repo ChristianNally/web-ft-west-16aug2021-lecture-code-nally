@@ -29,4 +29,4 @@ returnPromise('one',1000)
   .catch((err) => {
     // throw err;
     console.log('err:',err);
-  });
+  })

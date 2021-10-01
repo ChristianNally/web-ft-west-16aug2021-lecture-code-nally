@@ -13,5 +13,5 @@ const promises = [promiseOne,  promiseTwo, promiseThree];
 
 Promise.race(promises)
   .then((data) => {
-    console.log('the race has been won:',data);
+    console.log(data);
   });
